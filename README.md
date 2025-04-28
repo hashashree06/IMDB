@@ -23,3 +23,13 @@ Project workflow:
 4) The cleaned dataset is then stored in TiDB cloud (An SQL database).
 5) The dataset is accesed from TiDB cloud, using streamlit various visualizaion and insights are developed.
 6) User is also allowed to experience dynamic filtering techniques for customized insights.
+
+Folder Structure:
+
+IMDB
+│
+├── imdb_data_scrapping.ipynb # Selenium scraping scripts
+├── merged_data_final.csv     # Final cleaned dataset
+├── imdb_sql_connection.ipynb # TiDB DB connection script             
+├── IMDB.py                   # Streamlit dashboard   
+└── README.md                 
